@@ -14,7 +14,7 @@ namespace POO
         public int anoFabricacao;
 
         //METODOS
-        public void AlterarModelo(string mod)
+        public void setModelo(string mod)
         
         {
             if((mod == "fietsa" || mod == "HB220")

@@ -14,6 +14,7 @@
 //POO PROGRAMACAO ORIENTADA A OBEJTOS
 
 // 4 PILARES DA POO PROGRAMACAO ORIEMTADA A OBJETOS
+
 // CLASSE seria a definicao (da forma) (seria o adjetivo)
 //OBJETO seria uma instancia da classe (seria substantivo)
 
@@ -23,10 +24,11 @@
 // Objeto -  instancia de uma classe
 
 //ENCAPSULAMENTO - Esconder comportamento e atributos
-//public - esse atributo ou metodo pode ser acessadi por qualquer pessoa
-//private - 
+//public - esse atributo ou metodo pode ser acessado por qualquer pessoa
+//private - oculda os atributos e metodos  (tudo que for privado deve comecar com _ )
 //protected/internal - esse atributo, metodo ou claase so pode ser acessado por ele mesmo ou pela classe pai
 //VANTANGENS
+//Get - metodo para pegar um
 //1 rsconder metodos/atributos/claase
 //2 defino regras para altera;ao
 //get - metodo para um atributo privado
@@ -68,54 +70,62 @@ using POO;
 
 //crie class livro
 
-livro livro1 = new livro();
+//livro livro1 = new livro();
 
-livro1.Titulo = "Cavaleiro preso na armadura";
-livro1.Autor = "RObert Fisher";
-livro1.Paginas = 100;
+//livro1.Titulo = "Cavaleiro preso na armadura";
+//livro1.Autor = "RObert Fisher";
+//livro1.Paginas = 100;
 
-livro livro2 = new livro()
-{
-    Autor = "Robert Martin",
-    Titulo = "Clean Code",
-    Paginas = 363
-};
+//livro livro2 = new livro()
+//{
+//    Autor = "Robert Martin",
+//    Titulo = "Clean Code",
+//    Paginas = 363
+//};
 
-Console.WriteLine(livro1.Autor);
-Console.WriteLine(livro1.Titulo);
-Console.WriteLine(livro1.Paginas);
+//Console.WriteLine(livro1.Autor);
+//Console.WriteLine(livro1.Titulo);
+//Console.WriteLine(livro1.Paginas);
 
-//classe aluno
+////classe aluno
 
-Aluno aluno1 = new Aluno()
-{
-    nome = "Ronaldo Carvalho",
-    idade = 36,
-    notaFinal = 7
-};
-Console.WriteLine(aluno1.nome);
-Console.WriteLine(aluno1.idade);
-Console.WriteLine(aluno1.notaFinal);
+//Aluno aluno1 = new Aluno()
+//{
+//    nome = "Ronaldo Carvalho",
+//    idade = 36,
+//    notaFinal = 7
+//};
+//Console.WriteLine(aluno1.nome);
+//Console.WriteLine(aluno1.idade);
+//Console.WriteLine(aluno1.notaFinal);
 
-Aluno aluno2 = new Aluno()
-{
-    nome = "Rones Carvalho",
-    idade = 34,
-    notaFinal = 6
-};
-Console.WriteLine(aluno2.nome);
-Console.WriteLine(aluno2.idade);
-Console.WriteLine(aluno2.notaFinal);
+//Aluno aluno2 = new Aluno()
+//{
+//    nome = "Rones Carvalho",
+//    idade = 34,
+//    notaFinal = 6
+//};
+//Console.WriteLine(aluno2.nome);
+//Console.WriteLine(aluno2.idade);
+//Console.WriteLine(aluno2.notaFinal);
 
-Produto produto = new Produto()
-{
-    nome = "Camiseta",
-    preco = 25.90,
-    quantidadeEmEstoque = 15
-};
-Console.WriteLine(produto.CalcularTotal());
+//Produto produto = new Produto()
+//{
+//    nome = "Camiseta",
+//    preco = 25.90,
+//    quantidadeEmEstoque = 15
+//};
+//Console.WriteLine(produto.CalcularTotal());
 
+ContaBancaria conta1 = new ContaBancaria();
 
+conta1.Despositar(100);
+
+Console.WriteLine(conta1.VerSaldo());
+
+conta1.Sacar(50);
+
+conta1.VerSaldo();
 
 
 

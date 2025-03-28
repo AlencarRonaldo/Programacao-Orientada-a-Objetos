@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO", "POO\POO.csproj", "{C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{38015180-3E7A-41D2-9F94-6D09D1858143}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca", "Heranca\Heranca.csproj", "{CA5643F2-60CA-47EC-B582-D77412DC2B41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{CF4710CE-3114-44EC-B053-F18FCE06984F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF4710CE-3114-44EC-B053-F18FCE06984F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF4710CE-3114-44EC-B053-F18FCE06984F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5643F2-60CA-47EC-B582-D77412DC2B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5643F2-60CA-47EC-B582-D77412DC2B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5643F2-60CA-47EC-B582-D77412DC2B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5643F2-60CA-47EC-B582-D77412DC2B41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
